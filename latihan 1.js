@@ -1,7 +1,7 @@
-function sum(...numbers) {
+function sum() {
   let total = 0;
-  for (let sum of numbers) {
-    total += sum;
+  for (x = 0; x < arguments.length; x++) {
+    total = total + arguments[x];
   }
   console.log(total);
 }
